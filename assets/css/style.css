@@ -1,0 +1,282 @@
+* {
+	margin: auto;
+}
+
+html body {
+	height: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.5;
+	display: table;
+}
+
+/*Background pattern from Subtle Patterns*/
+
+.wrapper {
+	width: 1060px;
+	height: auto;
+	background-image: url(topography.png);
+	/*background-color: green;*/
+	/*align-content: center;*/
+	/*margin: 50px;*/
+	/*margin-bottom: -50px;*/
+	/*text-align: center;*/
+}
+
+	
+.name {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	padding: 20px;
+	text-align: center;
+	width: 220px;
+	margin-left: 80px;
+	margin-bottom: 0px;
+	float: left;
+	margin-right: 415px;
+	margin-top: 30px;
+	display: inline-block;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+
+}
+
+.header {
+	background-color: #FFFFFF;
+	/*width: 960px;*/
+	width: 100%;
+	border-color: #cccccc;
+	border-width: 2px;
+	border-bottom-style: solid;
+	float: left;
+}
+
+.linklist {
+	list-style-type: none;
+	/*background-color: grey;*/
+	margin: 0px;
+	padding: 20px;
+	width: 200px;
+	margin-top: 35px;
+	/*margin-right: 100px;*/
+	margin-left: 0px;
+	/*margin-bottom: 20px;*/
+	/*float: left;*/
+	/*float: right;*/
+	position: relative;
+	right: 0px;
+	display: inline-block;
+	/*bottom: 5px;*/
+
+	
+
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	color: #666666;
+	/*display: block;*/
+	/*padding: 20px 20px;*/
+}
+
+li a:hover {
+	color: #4aaaa5;
+}
+
+.aboutme {
+	margin: 0px 20px 0px 20px;
+	/*margin-bottom: 20px;*/
+	border-color: #cccccc;
+	border-width: 2px;
+	border-bottom-style: solid;
+	background-color: #ffffff;
+}
+
+.connectwithme {
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	color: #666666;
+	border-width: 2px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+
+	/*padding-top: 20px;*/
+}
+
+.content {
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+
+.maincontent { 
+	border-style: solid;
+	float: left;
+	border-color: #cccccc;
+	/*border-top-style: none;*/
+	width: 650px;
+	margin: 40px 0px 40px 20px;
+	padding: 20px;
+	color: #666666;
+	background-color: #ffffff;
+	/*width: 60%;*/
+}
+
+.ProfilePic {
+	max-width:25%;
+	max-height:25%;
+	float: left;
+	/*margin-right: 20px;*/
+	/*margin-bottom: 20px;*/
+	margin: 0px 20px 20px 20px;
+}
+
+.portfolioimg {
+
+}
+
+aside {
+	border-style: solid;
+	float: left;
+	border-color: #cccccc;
+	width: 270px;
+	margin-top: 40px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	background-color: white;
+}
+
+
+
+.stackoverflowlink {
+	width: 70px;
+	height: 70px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+.githublink {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+
+}
+
+.linkedinlink {
+	width: 50px;
+	height: 50px;	
+}
+
+.footerwrap {
+	width: 100%
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 5px;
+	padding: 20px;
+	background-color: #666666;
+	color: #cccccc;
+	/*position: absolute;*/
+	/*margin-bottom: 0px*/
+	/*width: 1060px;*/
+	/*display: inline-block;*/
+	/*display: table-row;*/
+	/*height: 1px;*/
+}
+
+/*portfolio.html css*/
+
+
+div.polaroid {
+  width: 40%;
+  background-color: #63A8A4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 10px 10px 40px;
+  float: left;
+}
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+	color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.mid .h2onpics {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+/*css for contact page*/
+
+form {
+	max-width: 100%;
+	padding-top: 10px;
+}
+
+label {
+	display: block;
+}
+
+span {
+	display: block;
+	padding: 0px 20px 0px 20px;
+}
+
+input, textarea {
+	border: 2px solid #dddddd;
+	display: block;
+	width: 90%;
+	padding: 5px 0px;
+	/*margin: 10px 0px 10px 0px;*/
+}
+
+textarea {
+	height: 100px;
+}
+
+
+
+
+
+
+
+
